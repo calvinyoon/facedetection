@@ -1,0 +1,42 @@
+.urlinput {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255,255,255,0.3);
+	height: 70px;
+	width: 500px;
+}
+
+input {
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	width: 60%;
+	margin: 0 auto;
+	z-index: 999;
+}
+
+button {
+	width: 30%;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	margin: 0 auto;
+	display: inline-block;
+	background-color: #a3a1e8;
+	cursor: pointer;
+	z-index: 999;
+	transition: flex-grow 0.2s ease-in-out;
+}
+
+button:active {
+	transform: scale(1.2);
+}
+
+.instructions {
+	margin: 1rem;
+}

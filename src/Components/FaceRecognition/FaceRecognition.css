@@ -1,0 +1,28 @@
+.imagecontainer {
+	position: relative;
+	display: inline-block;
+/*	background-color: yellow;*/
+	background-color: #282c34;
+	margin: 30px auto;
+	box-sizing: border-box;
+}
+
+#inputimage {
+	position: relative; 
+	border: 3px solid white;
+	height: 100%;
+}
+
+.bounding-box {
+	position: absolute;
+	box-shadow: 0 0 0 3px #149df2 inset;
+	cursor: pointer;
+}
+
+
+/* NOTE: bounding box appears to be relative to the container, not the image*/
+/* because if I change the dimensions of image container, then the border stretches relatively*/
+
+
+
+

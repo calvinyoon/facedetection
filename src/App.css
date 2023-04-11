@@ -1,0 +1,15 @@
+.App {
+/*  background-color: #282c34;*/
+  background-color: lightgray;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
