@@ -1,1 +1,1 @@
-# facedetection
+# facedetection-frontend
